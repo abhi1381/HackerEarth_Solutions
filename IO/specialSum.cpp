@@ -27,7 +27,7 @@ int main() {
         a.push_back(input);
     }
 
-    for(long long int i = 0; i < v.size(); i++)
+    for(long long int i = 0; i < N; i++)
     {
         pairs = sqrt(8*(N - i)  +1) - 1;
         pairs = floor(pairs/2); 
